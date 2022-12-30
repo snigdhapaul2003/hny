@@ -1,0 +1,476 @@
+body {
+  margin:0;
+}
+
+.main {
+  height:100vh;
+  width:100%;
+  /* background-image: url("bg.jpg"); */
+  background-image: linear-gradient(45deg,#16003B,#7A4495,#B270A2,#FF8FB1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display:block;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes rotate{
+  0% {
+    transform:rotate(180deg);
+  }
+  100% {
+    transform:rotate(0);
+  }
+}
+
+.text1 {
+  font-family: 'Rubik Vinyl', cursive;
+  color:#850000;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text1:hover {
+  font-family: 'Rubik Vinyl', cursive;
+  color:#DC3535;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text2 {
+  font-family: 'Rubik Vinyl', cursive;
+  color:#850000;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text2:hover {
+  font-family: 'Rubik Vinyl', cursive;
+  color:#DC3535;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img1 {
+  position: fixed;
+}
+.m {
+  position:relative;
+  left:45%;
+  display:inline;
+
+}
+
+.btn:hover {
+  position:relative;
+  left:45%;
+}
+
+.play {
+  height:100vh;
+  width:100%;
+  background-image: linear-gradient(45deg,blue,powderblue,pink,red);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display:none;
+}
+
+#word {
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 60px;
+  color:#DC3535;
+  font-weight: bold;
+  text-align: center;
+  font-stretch: extra-expanded;
+}
+
+input {
+  position:relative;
+  left:43%;
+  display:inline;
+
+}
+
+#wor {
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 60px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btnn {
+  position:relative;
+  left:45%;
+  display:none;
+}
+
+.back-image{
+  background-image: url("bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:600px;
+  width:100vw;
+  display:none;
+}
+.bg4 {
+  position:absolute;
+  top:6vw;
+  left:2vw;
+  border-color: white;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: slide;
+}
+.bg3 {
+  position:relative;
+  bottom:280px;;
+  left:55px;
+}
+.img3 {
+  height:450px;
+  width:60vw;
+  border-radius: 2%;
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+  opacity:80%;
+  box-shadow: 5px 5px 10px 5px #850000;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+}
+
+@keyframes slide{
+  0% {
+    left:2vw;
+  }
+
+  100% {
+    right:2vw;
+  }
+}
+
+.img2 {
+  position:absolute;
+  right:0;
+  width:100%;
+  height:600px;
+  align-items: flex-start;
+}
+
+.HNY {
+  position:absolute;
+  top:8vw;
+  left:8vw;
+}
+
+h1 {
+  color:yellow;
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-name: fadeIn;
+
+}
+
+h1:hover {
+  color:#3EC70B;
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+
+
+h2 {
+  color:yellow;
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+  animation-name: fadeIn;
+}
+
+h2:hover {
+  color:#3EC70B;
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+h3 {
+  color:yellow;
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+  animation-name: fadeIn;
+}
+
+h3:hover {
+  color:#3EC70B;
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.quotes {
+  background-image: url("bg5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position:relative;
+  top:0;
+  height:600px;
+  width:100%;
+  opacity: 100%;
+  align-items: center;
+  padding:10% 35%;
+  display:none;
+}
+
+
+
+p {
+  text-align: center;
+  color:black;
+  font-family: 'Sevillana', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity:0%;
+}
+100% {
+  opacity:80%;
+}
+}
+
+.navbar {
+  padding:0 0 10rem;
+}
+
+.navbar-brand
+{
+  font-family: 'Sevillana', cursive;
+  font-stretch: expanded;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding:0 30px
+}
+
+.nav-link {
+  font-size:1.2rem;
+  font-family: 'Sevillana', cursive;
+  font-weight: bold;
+  color:yellow;
+}
+
+.nav-link:hover {
+  font-size:1.2rem;
+  font-family: 'Sevillana', cursive;
+  font-weight: bold;
+  color:#3EC70B;
+}
+
+.navbar-toggler-icon {
+  color:yellow;
+}
+
+
+.memories {
+  /* background-color:  #850000; */
+  background-image: linear-gradient(#850000,#741020,#850E35);
+  padding:5%;
+  display:none;
+}
+
+.wait {
+  text-align: right;
+  animation-name: slideshow;
+  animation-duration: 3000;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideshow {
+  0%    { color:yellow ;
+  font-size: 40px;
+text-align: center;}
+
+
+  100% {
+    color:#3EC70B;
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+.l {
+  position:relative;
+  left:45%;
+  display:inline;
+
+}
+
+.btn:hover {
+  position:relative;
+  left:45%;
+}
+
+#gallery {
+  color:red;
+  display:none;
+}
+
+#testimonials {
+
+
+  background-image: url("bg12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color:white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+.testimonial-image {
+  align-items: center;
+  height:25vw;
+  width:30vw;
+  margin:20px;
+  border-radius: 4%;
+  border-style: ridge;
+  border-color: white;
+  border-width: thick;
+  box-shadow: 5px 5px 10px 5px #850000;
+
+}
+
+em {
+  font-family: 'Sevillana', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 5px black;
+}
+
+.footer {
+  background-color: black;
+  align-items: center;
+  display:none;
+}
+
+.reso {
+  text-align: center;
+  font-size: 30px;
+}
+.reso:hover {
+  text-align: center;
+  font-size: 30px;
+}
+
+.resss {
+  font-family: 'Sevillana', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color:yellow;
+}
+
+.resss:hover {
+  font-family: 'Sevillana', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color:#3EC70B;
+}
+
+.re {
+  padding:5%;
+}
+
+@media (max-width:950px) {
+  .img3 {
+    height:450px;
+    width:90vw;
+    border-radius: 2%;
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+    box-shadow: 5px 5px 10px 5px #850000;
+  }
+
+  .quotes {
+    background-image: url("bg5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    top:0;
+    height:600px;
+    width:100%;
+    opacity: 100%;
+    align-items: center;
+    padding:10% 25%;
+  }
+
+  .wait {
+    text-align: center;
+   color: yellow;
+
+  }
+
+  input {
+    position:relative;
+    left:40%;
+    display:inline;
+
+  }
+
+  .main {
+    height:100vh;
+    width:100%;
+    /* background-image: url("bg.jpg"); */
+    background-image: linear-gradient(45deg,#16003B,#7A4495,#B270A2,#FF8FB1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:block;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+  }
+}
